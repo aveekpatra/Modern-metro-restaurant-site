@@ -10,6 +10,7 @@ import {
   Wine,
   Clock,
   Award,
+  Code,
 } from "lucide-react";
 
 function Footer() {
@@ -304,6 +305,44 @@ function Footer() {
               </a>
             </motion.div>
           </div>
+        </div>
+      </motion.div>
+
+      {/* Developer Credit */}
+      <motion.div
+        className="border-t border-white/5 bg-zinc-950 py-4"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.8, delay: 0.6 }}
+        viewport={{ once: true }}
+      >
+        <div className="max-w-7xl mx-auto px-6">
+          <motion.div
+            className="flex items-center justify-center space-x-3"
+            initial={{ y: 20, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.6, delay: 0.7 }}
+            viewport={{ once: true }}
+          >
+            <motion.div
+              className="flex items-center space-x-2 text-gray-500 group"
+              whileHover={{ scale: 1.05 }}
+              transition={{ duration: 0.2 }}
+            >
+              <Code className="w-4 h-4 text-gray-600 group-hover:text-white transition-colors duration-300" />
+              <span className="text-xs font-light">Designed by</span>
+            </motion.div>
+            <motion.a
+              href="https://aveekpatra.info"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-medium text-gray-400 hover:text-white transition-all duration-300 border-b border-transparent hover:border-white/50"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              Aveek Patra
+            </motion.a>
+          </motion.div>
         </div>
       </motion.div>
     </footer>

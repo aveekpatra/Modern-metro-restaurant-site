@@ -1,0 +1,224 @@
+{
+  "nav": {
+    "home": "Domů",
+    "menu": "Jídelní lístek",
+    "about": "O nás",
+    "contact": "Kontakt",
+    "restaurantName": "U Blanických rytířů"
+  },
+  "home": {
+    "title": "Vítejte v restauraci U Blanických rytířů",
+    "subtitle": "Stylová zámecká restaurace ve Středočeském kraji, součást vlašimského zámku obklopeného nádherným anglickým parkem.",
+    "metaDescription": "U Blanických rytířů - Zámecká restaurace ve Středních Čechách u legendární hory Blaník"
+  },
+  "hero": {
+    "authentic": "AUTENTICKÁ",
+    "restaurantName": "U BLANICKÝCH RYTÍŘŮ",
+    "description": "Stylová zámecká restaurace ve Středočeském kraji, nedaleko legendární hory Blaník",
+    "bookTable": "REZERVOVAT STŮL",
+    "viewMenu": "ZOBRAZIT MENU",
+    "hours": {
+      "weekdays": "Pondělí - Čtvrtek a Neděle",
+      "weekdaysTime": "11:00 - 22:00",
+      "weekends": "Pátek - Sobota",
+      "weekendsTime": "11:00 - 24:00"
+    },
+    "location": {
+      "address": "Zámek 1, Vlašim",
+      "region": "Středočeský kraj"
+    },
+    "features": {
+      "castleRestaurant": "Součást vlašimského zámku",
+      "englishPark": "Obklopena anglickým parkem",
+      "tradition": "Dlouholetá tradice od založení",
+      "renovation": "Kompletně zrekonstruována",
+      "professionalTeam": "Profesionální tým kuchařů",
+      "nonSmoking": "Nekuřácké prostředí",
+      "ownVineyards": "Víno z vlastních vinic",
+      "grandRestaurant": "Zařazena do Maurerova výběru Grand Restaurant 2015",
+      "twoRooms": "Dvě místnosti s venkovní terasou",
+      "salon": "K dispozici salonek",
+      "friendlyAtmosphere": "Přátelská atmosféra a profesionální obsluha",
+      "culinaryExperience": "Přijďte zažít kulinářský zážitek",
+      "goodWine": "Či jen posedět nad sklenkou dobrého vína z našich vinic"
+    },
+    "reservation": {
+      "phone": "+420 732 878 238",
+      "email": "ublanickychrytiru@seznam.cz"
+    }
+  },
+  "featuredDishes": {
+    "title": "OBJEVTE LAHODNOST",
+    "subtitle": "Tradiční české speciality",
+    "viewFullMenu": "ZOBRAZIT CELÉ MENU",
+    "dishes": {
+      "svickova": {
+        "name": "SVÍČKOVÁ NA SMETANĚ",
+        "description": "Hovězí svíčková na smetaně s houskovými knedlíky, šlehačkou a brusinkami",
+        "price": "280 Kč"
+      },
+      "gulas": {
+        "name": "HOVĚZÍ GULÁŠ",
+        "description": "Tradiční český hovězí guláš s cibulí a paprikou, podávaný s houskovými knedlíky",
+        "price": "250 Kč"
+      },
+      "kachna": {
+        "name": "PEČENÁ KACHNA",
+        "description": "Pečená kachna s červeným zelím a bramborovými knedlíky, tradiční nedělní jídlo",
+        "price": "320 Kč"
+      },
+      "rizek": {
+        "name": "ŘÍZEK S BRAMBOROVÝM SALÁTEM",
+        "description": "Český řízek s tradičním bramborovým salátem, oblíbené pokrm pro každý den",
+        "price": "180 Kč"
+      }
+    }
+  },
+  "about": {
+    "title": "VYTVÁŘÍME NOVÝ SVĚT CHUTÍ",
+    "subtitle": "O RESTAURACI U BLANICKÝCH RYTÍŘŮ",
+    "description": [
+      "Vítejte v restauraci U Blanických rytířů, kde se tradiční česká kuchyně setkává s elegantní atmosférou historického zámku. Nacházíme se v krásném vlašimském zámku obklopeném anglickým parkem a přinášíme autentické české chutě na každý talíř.",
+      "Náš profesionální tým kuchařů pečlivě připravuje každé jídlo z nejkvalitnějších místních surovin podle tradičních receptů. Od sytého guláše až po klasickou svíčkovou, každé sousto odráží náš závazek zachovat české kulinářské dědictví při moderní prezentaci."
+    ],
+    "pageTitle": "O nás",
+    "pageSubtitle": "Zámecká restaurace s dlouholetou tradicí, v loňském roce prošla kompletní rekonstrukcí. Nachází se ve vlašimském zámku nedaleko bájné hory Blaník.",
+    "metaDescription": "Dozvědětě se více o zámecké restauraci U Blanických rytířů ve Středních Čechách"
+  },
+  "cta": {
+    "title": "JSTE PŘIPRAVENI ZAŽÍT",
+    "titleHighlight": "AUTENTICKOU ČESKOU KUCHYNI?",
+    "description": "Rezervujte si stůl ještě dnes a vydejte se na kulinářskou cestu srdcem české gastronomie v našem historickém zámeckém prostředí",
+    "button": "REZERVOVAT STŮL"
+  },
+  "gallery": {
+    "title": "OBJEVTE JÍDLO A ATMOSFÉRU",
+    "subtitle": "GALERIE",
+    "viewFullGallery": "ZOBRAZIT CELOU GALERII"
+  },
+  "reviews": {
+    "title": "NAŠI HOSTÉ NÁS MILUJÍ",
+    "subtitle": "RECENZE",
+    "verifiedCustomer": "Ověřený host",
+    "readMore": "ČÍST VÍCE RECENZÍ",
+    "testimonials": [
+      {
+        "text": "Úžasný zážitek! Svíčková byla dokonalá, knedlíky nadýchané a omáčka krémová. Prostředí zámku dodává jídlu zvláštní atmosféru. Obsluha byla velmi pozorná a profesionální.",
+        "author": "Petr Novák",
+        "rating": 5
+      },
+      {
+        "text": "Navštívili jsme restauraci během víkendu a byli jsme nadšeni. Guláš byl výborný, maso měkké a chuť autentická. Krásné prostředí a milá obsluha. Určitě se vrátíme!",
+        "author": "Marie Svobodová",
+        "rating": 5
+      },
+      {
+        "text": "Skvělá česká kuchyně v nádherném prostředí zámku. Pečená kachna byla fantastická, červené zelí perfektně dochucené. Víno z vlastních vinic je výtečné. Doporučuji všem!",
+        "author": "Jan Dvořák",
+        "rating": 5
+      },
+      {
+        "text": "Restaurace splnila všechna očekávání. Řízek byl křupavý, bramborový salát domácí chutě. Prostředí je elegantní a útulné zároveň. Personál velmi vstřícný a rychlý.",
+        "author": "Anna Procházková",
+        "rating": 5
+      }
+    ]
+  },
+  "menu": {
+    "title": "Naše menu",
+    "subtitle": "Objevte tradiční českou kuchyni s moderními prvky, připravenou naším profesionálním týmem kuchařů.",
+    "metaDescription": "Prozkoumejte menu restaurace U Blanických rytířů s tradičními českými pokrmy"
+  },
+  "contact": {
+    "title": "KONTAKTUJTE NÁS",
+    "subtitle": "KONTAKT",
+    "phone": {
+      "title": "Telefon",
+      "number": "+420 732 878 238",
+      "subtitle": "Pro rezervace a dotazy"
+    },
+    "email": {
+      "title": "Email",
+      "address": "ublanickychrytiru@seznam.cz",
+      "subtitle": "Pište nám kdykoliv"
+    },
+    "location": {
+      "title": "Adresa",
+      "address": "Zámek 1, Vlašim, Středočeský kraj",
+      "subtitle": "Součást vlašimského zámku"
+    },
+    "hours": [
+      {
+        "days": "Pondělí - Čtvrtek",
+        "time": "11:00 - 22:00"
+      },
+      {
+        "days": "Pátek - Sobota",
+        "time": "11:00 - 24:00"
+      },
+      {
+        "days": "Neděle",
+        "time": "11:00 - 22:00"
+      }
+    ],
+    "hoursTitle": "Otevírací doba",
+    "featuresTitle": "Naše služby",
+    "features": [
+      {
+        "icon": "wine",
+        "text": "Víno z vlastních vinic"
+      },
+      {
+        "icon": "users",
+        "text": "Salonek pro soukromé akce"
+      },
+      {
+        "icon": "mapPin",
+        "text": "Venkovní terasa s výhledem"
+      },
+      {
+        "icon": "clock",
+        "text": "Nekuřácké prostředí"
+      },
+      {
+        "icon": "wine",
+        "text": "Tradiční česká kuchyně"
+      },
+      {
+        "icon": "users",
+        "text": "Profesionální obsluha"
+      }
+    ],
+    "reservation": {
+      "title": "Rezervace stolu",
+      "description": "Doporučujeme rezervaci předem, zejména o víkendech a svátcích. Kontaktujte nás telefonicky nebo emailem.",
+      "callButton": "ZAVOLAT",
+      "emailButton": "NAPSAT EMAIL",
+      "or": "nebo"
+    },
+    "locationNote": "Restaurace se nachází v krásném prostředí vlašimského zámku obklopeného anglickým parkem, nedaleko legendární hory Blaník.",
+    "pageTitle": "Kontaktujte nás",
+    "pageSubtitle": "Pro rezervace volejte +420 732 878 238. Najdete nás na adrese Zámek 1, Vlašim, Středočeský kraj.",
+    "metaDescription": "Kontakt na restauraci U Blanických rytířů - rezervace +420 732 878 238"
+  },
+  "footer": {
+    "description": "Stylová zámecká restaurace ve Středočeském kraji, nedaleko legendární hory Blaník. Přijďte ochutnat autentickou českou kuchyni v nádherném prostředí vlašimského zámku.",
+    "navigation": "Navigace",
+    "highlightsTitle": "Naše přednosti",
+    "highlights": {
+      "grandRestaurant": "Grand Restaurant 2015",
+      "ownVineyards": "Vlastní vinice",
+      "tradition": "Dlouholetá tradice"
+    },
+    "copyright": "Všechna práva vyhrazena.",
+    "privacy": "Ochrana soukromí",
+    "terms": "Obchodní podmínky"
+  },
+  "common": {
+    "loading": "Načítání...",
+    "error": "Chyba",
+    "notFound": "404 - Stránka nenalezena",
+    "notFoundMessage": "Stránka, kterou hledáte, neexistuje.",
+    "languageSwitch": "Přepnout jazyk"
+  }
+}

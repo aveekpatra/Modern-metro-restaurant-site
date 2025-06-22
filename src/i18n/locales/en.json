@@ -1,0 +1,224 @@
+{
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "about": "About",
+    "contact": "Contact",
+    "restaurantName": "U Blanických rytířů"
+  },
+  "home": {
+    "title": "Welcome to U Blanických rytířů",
+    "subtitle": "Stylish castle restaurant in Central Bohemia, part of Vlašim Castle surrounded by beautiful English park.",
+    "metaDescription": "U Blanických rytířů - Castle restaurant in Central Bohemia near legendary Blaník Mountain"
+  },
+  "hero": {
+    "authentic": "AUTHENTIC",
+    "restaurantName": "U BLANICKÝCH RYTÍŘŮ",
+    "description": "Stylish castle restaurant in Central Bohemia, near the legendary Blaník Mountain",
+    "bookTable": "BOOK TABLE",
+    "viewMenu": "VIEW MENU",
+    "hours": {
+      "weekdays": "Monday - Thursday & Sunday",
+      "weekdaysTime": "11:00 AM - 10:00 PM",
+      "weekends": "Friday - Saturday",
+      "weekendsTime": "11:00 AM - 12:00 AM"
+    },
+    "location": {
+      "address": "Zámek 1, Vlašim",
+      "region": "Central Bohemia"
+    },
+    "features": {
+      "castleRestaurant": "Part of Vlašim Castle",
+      "englishPark": "Surrounded by English park",
+      "tradition": "Long tradition since establishment",
+      "renovation": "Completely renovated",
+      "professionalTeam": "Professional team of chefs",
+      "nonSmoking": "Non-smoking environment",
+      "ownVineyards": "Wine from our own vineyards",
+      "grandRestaurant": "Featured in Maurer's Grand Restaurant guide 2015",
+      "twoRooms": "Two dining rooms with outdoor terrace",
+      "salon": "Private salon available",
+      "friendlyAtmosphere": "Friendly atmosphere and professional service",
+      "culinaryExperience": "Come enjoy a culinary experience",
+      "goodWine": "Or just sit over a glass of good wine from our vineyards"
+    },
+    "reservation": {
+      "phone": "+420 732 878 238",
+      "email": "ublanickychrytiru@seznam.cz"
+    }
+  },
+  "featuredDishes": {
+    "title": "EXPLORE THE DELICIOUSNESS",
+    "subtitle": "Traditional Czech Specialties",
+    "viewFullMenu": "VIEW FULL MENU",
+    "dishes": {
+      "svickova": {
+        "name": "SVÍČKOVÁ NA SMETANĚ",
+        "description": "Beef sirloin in creamy vegetable sauce with bread dumplings, whipped cream and cranberries",
+        "price": "280 CZK"
+      },
+      "gulas": {
+        "name": "HOVĚZÍ GULÁŠ",
+        "description": "Traditional Czech beef goulash with onions and paprika, served with bread dumplings",
+        "price": "250 CZK"
+      },
+      "kachna": {
+        "name": "PEČENÁ KACHNA",
+        "description": "Roasted duck with red cabbage and potato dumplings, traditional Sunday meal",
+        "price": "320 CZK"
+      },
+      "rizek": {
+        "name": "ŘÍZEK S BRAMBOROVÝM SALÁTEM",
+        "description": "Czech schnitzel with traditional potato salad, popular comfort food",
+        "price": "180 CZK"
+      }
+    }
+  },
+  "about": {
+    "title": "CREATING A NEW WORLD OF FLAVORS",
+    "subtitle": "ABOUT U BLANICKÝCH RYTÍŘŮ",
+    "description": [
+      "Welcome to U Blanických rytířů, where traditional Czech cuisine meets the elegant atmosphere of a historic castle. Located in the beautiful Vlašim Castle surrounded by an English park, we bring authentic Czech flavors to every plate.",
+      "Our professional team of chefs meticulously crafts each dish using the finest local ingredients and traditional recipes. From hearty goulash to the classic svíčková, every bite reflects our commitment to preserving Czech culinary heritage while embracing modern presentation."
+    ],
+    "pageTitle": "About Us",
+    "pageSubtitle": "Castle restaurant with long tradition, completely renovated. Located in Vlašim Castle near the legendary Blaník Mountain.",
+    "metaDescription": "Learn more about U Blanických rytířů castle restaurant in Central Bohemia"
+  },
+  "cta": {
+    "title": "READY TO EXPERIENCE",
+    "titleHighlight": "AUTHENTIC CZECH CUISINE?",
+    "description": "Reserve your table today and embark on a culinary journey through the heart of Czech gastronomy in our historic castle setting",
+    "button": "MAKE RESERVATION"
+  },
+  "gallery": {
+    "title": "EXPLORE THE FOOD & AMBIENCE",
+    "subtitle": "GALLERY",
+    "viewFullGallery": "VIEW FULL GALLERY"
+  },
+  "reviews": {
+    "title": "OUR GUESTS LOVE US",
+    "subtitle": "REVIEWS",
+    "verifiedCustomer": "Verified Guest",
+    "readMore": "READ MORE REVIEWS",
+    "testimonials": [
+      {
+        "text": "Amazing experience! The svíčková was perfect, dumplings were fluffy and the sauce creamy. The castle setting adds a special atmosphere to the meal. Service was very attentive and professional.",
+        "author": "Peter Novák",
+        "rating": 5
+      },
+      {
+        "text": "We visited the restaurant during the weekend and were delighted. The goulash was excellent, meat tender and taste authentic. Beautiful setting and lovely service. We'll definitely return!",
+        "author": "Marie Svobodová",
+        "rating": 5
+      },
+      {
+        "text": "Great Czech cuisine in a beautiful castle setting. The roasted duck was fantastic, red cabbage perfectly seasoned. Wine from their own vineyards is excellent. Highly recommend to everyone!",
+        "author": "Jan Dvořák",
+        "rating": 5
+      },
+      {
+        "text": "The restaurant exceeded all expectations. Schnitzel was crispy, potato salad had that homemade taste. The atmosphere is elegant yet cozy. Staff very friendly and efficient.",
+        "author": "Anna Procházková",
+        "rating": 5
+      }
+    ]
+  },
+  "menu": {
+    "title": "Our Menu",
+    "subtitle": "Discover our traditional Czech cuisine with modern touches, prepared by our professional team of chefs.",
+    "metaDescription": "Explore U Blanických rytířů menu featuring traditional Czech dishes"
+  },
+  "contact": {
+    "title": "CONTACT US",
+    "subtitle": "CONTACT",
+    "phone": {
+      "title": "Phone",
+      "number": "+420 732 878 238",
+      "subtitle": "For reservations and inquiries"
+    },
+    "email": {
+      "title": "Email",
+      "address": "ublanickychrytiru@seznam.cz",
+      "subtitle": "Write to us anytime"
+    },
+    "location": {
+      "title": "Address",
+      "address": "Zámek 1, Vlašim, Central Bohemia",
+      "subtitle": "Part of Vlašim Castle"
+    },
+    "hours": [
+      {
+        "days": "Monday - Thursday",
+        "time": "11:00 AM - 10:00 PM"
+      },
+      {
+        "days": "Friday - Saturday",
+        "time": "11:00 AM - 12:00 AM"
+      },
+      {
+        "days": "Sunday",
+        "time": "11:00 AM - 10:00 PM"
+      }
+    ],
+    "hoursTitle": "Opening Hours",
+    "featuresTitle": "Our Services",
+    "features": [
+      {
+        "icon": "wine",
+        "text": "Wine from our own vineyards"
+      },
+      {
+        "icon": "users",
+        "text": "Private salon for events"
+      },
+      {
+        "icon": "mapPin",
+        "text": "Outdoor terrace with views"
+      },
+      {
+        "icon": "clock",
+        "text": "Non-smoking environment"
+      },
+      {
+        "icon": "wine",
+        "text": "Traditional Czech cuisine"
+      },
+      {
+        "icon": "users",
+        "text": "Professional service"
+      }
+    ],
+    "reservation": {
+      "title": "Table Reservation",
+      "description": "We recommend booking in advance, especially on weekends and holidays. Contact us by phone or email.",
+      "callButton": "CALL NOW",
+      "emailButton": "SEND EMAIL",
+      "or": "or"
+    },
+    "locationNote": "The restaurant is located in the beautiful setting of Vlašim Castle surrounded by an English park, near the legendary Blaník Mountain.",
+    "pageTitle": "Contact Us",
+    "pageSubtitle": "Call +420 732 878 238 for reservations. Located at Zámek 1, Vlašim, Central Bohemia.",
+    "metaDescription": "Contact U Blanických rytířů - reservations +420 732 878 238"
+  },
+  "footer": {
+    "description": "Stylish castle restaurant in Central Bohemia, near the legendary Blaník Mountain. Come taste authentic Czech cuisine in the beautiful setting of Vlašim Castle.",
+    "navigation": "Navigation",
+    "highlightsTitle": "Our Excellence",
+    "highlights": {
+      "grandRestaurant": "Grand Restaurant 2015",
+      "ownVineyards": "Own Vineyards",
+      "tradition": "Long Tradition"
+    },
+    "copyright": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "notFound": "404 - Page Not Found",
+    "notFoundMessage": "The page you're looking for doesn't exist.",
+    "languageSwitch": "Switch Language"
+  }
+}

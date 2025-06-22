@@ -11,6 +11,7 @@ import {
   Clock,
   Award,
   Code,
+  ArrowUpRight,
 } from "lucide-react";
 
 function Footer() {
@@ -329,18 +330,22 @@ function Footer() {
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2 }}
             >
-              <Code className="w-4 h-4 text-gray-600 group-hover:text-white transition-colors duration-300" />
-              <span className="text-xs font-light">Designed by</span>
+              <Code className="w-3.5 h-3.5 text-gray-600 group-hover:text-white transition-colors duration-300" />
+              <span className="text-xs font-light">
+                {t("footer.credit.designedBy")}
+              </span>
             </motion.div>
             <motion.a
               href="https://aveekpatra.info"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm font-medium text-gray-400 hover:text-white transition-all duration-300 border-b border-transparent hover:border-white/50"
+              className="flex items-center space-x-1.5 text-sm font-medium text-gray-400 hover:text-white transition-all duration-300 border-b border-transparent hover:border-white/50 group"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              title={t("footer.credit.visitPortfolio")}
             >
-              Aveek Patra
+              <span>Aveek Patra</span>
+              <ArrowUpRight className="w-4 h-4 text-gray-500 group-hover:text-white transition-colors duration-300" />
             </motion.a>
           </motion.div>
         </div>

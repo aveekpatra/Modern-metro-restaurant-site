@@ -312,7 +312,11 @@
     },
     "copyright": "Všechna práva vyhrazena.",
     "privacy": "Ochrana soukromí",
-    "terms": "Obchodní podmínky"
+    "terms": "Obchodní podmínky",
+    "credit": {
+      "designedBy": "Navrženo",
+      "visitPortfolio": "Navštivte portfolio"
+    }
   },
   "common": {
     "loading": "Načítání...",

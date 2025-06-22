@@ -220,10 +220,10 @@ function Menu() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
       >
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12 mt-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="text-center mb-8 sm:mb-12 mt-8">
             <motion.p
-              className="text-gray-400 text-sm uppercase tracking-[0.3em] font-light mb-4"
+              className="text-gray-400 text-xs sm:text-sm uppercase tracking-[0.2em] sm:tracking-[0.3em] font-light mb-4"
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.6 }}
@@ -231,7 +231,7 @@ function Menu() {
               {t("menu.subtitle")}
             </motion.p>
             <motion.h1
-              className="text-3xl md:text-4xl font-bold mb-8 font-sans text-white tracking-wide"
+              className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8 font-sans text-white tracking-wide"
               initial={{ y: 30, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.6, delay: 0.2 }}
@@ -241,28 +241,28 @@ function Menu() {
 
             {/* Search and Sort Controls - Metro Design */}
             <motion.div
-              className="flex justify-center mb-8"
+              className="flex flex-col sm:flex-row justify-center mb-8 gap-4 sm:gap-0 px-4 sm:px-0"
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.6, delay: 0.3 }}
             >
-              <div className="flex border border-white/20">
+              <div className="flex flex-col sm:flex-row border border-white/20 w-full sm:w-auto">
                 {/* Search Bar */}
-                <div className="relative bg-zinc-900 border-r border-white/20">
+                <div className="relative bg-zinc-900 border-b sm:border-b-0 sm:border-r border-white/20">
                   <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
                   <input
                     type="text"
                     placeholder={t("menu.searchPlaceholder")}
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
-                    className="bg-transparent border-none pl-12 pr-6 py-3 text-white placeholder-gray-400 focus:outline-none text-sm w-64"
+                    className="bg-transparent border-none pl-12 pr-6 py-3 text-white placeholder-gray-400 focus:outline-none text-sm w-full sm:w-64"
                   />
                 </div>
 
                 {/* Price Sort Button */}
                 <button
                   onClick={handlePriceSort}
-                  className={`flex items-center gap-2 px-6 py-3 text-sm bg-zinc-900 transition-all duration-300 ${
+                  className={`flex items-center justify-center sm:justify-start gap-2 px-6 py-3 text-sm bg-zinc-900 transition-all duration-300 ${
                     sortByPrice !== "none"
                       ? "text-white bg-white/10"
                       : "text-gray-400 hover:text-white hover:bg-white/5"
@@ -280,7 +280,7 @@ function Menu() {
 
             {/* Category Filter */}
             <motion.div
-              className="flex flex-wrap justify-center gap-4 mb-12"
+              className="flex flex-wrap justify-center gap-2 sm:gap-4 mb-12 px-4 sm:px-0"
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.6, delay: 0.4 }}
@@ -289,7 +289,7 @@ function Menu() {
                 <button
                   key={category.id}
                   onClick={() => setSelectedCategory(category.id)}
-                  className={`px-6 py-2 text-sm uppercase tracking-wide font-medium transition-all duration-300 ${
+                  className={`px-4 sm:px-6 py-2 text-xs sm:text-sm uppercase tracking-wide font-medium transition-all duration-300 ${
                     selectedCategory === category.id
                       ? "text-white border-b-2 border-white"
                       : "text-gray-400 hover:text-white"
@@ -303,7 +303,7 @@ function Menu() {
 
           {/* Menu Grid */}
           <motion.div
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 border border-white/20"
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-0 border border-white/20 mx-4 sm:mx-0"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.6 }}
@@ -311,7 +311,7 @@ function Menu() {
             {filteredItems.map((item, index) => (
               <motion.div
                 key={item.id}
-                className="relative bg-zinc-900 border-r border-b border-white/20 last:border-r-0"
+                className="relative bg-zinc-900 border-r border-b border-white/20 last:border-r-0 sm:last:border-r sm:last:lg:border-r-0"
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.05 }}
@@ -326,9 +326,9 @@ function Menu() {
                 </div>
 
                 {/* Content */}
-                <div className="p-6">
-                  <div className="flex justify-between items-start mb-2">
-                    <h3 className="text-white font-bold text-lg font-sans tracking-wide">
+                <div className="p-4 sm:p-6">
+                  <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2 gap-1 sm:gap-0">
+                    <h3 className="text-white font-bold text-lg sm:text-lg font-sans tracking-wide">
                       {t(item.nameKey)}
                     </h3>
                     <span className="text-white font-bold text-xl font-sans">
@@ -357,15 +357,15 @@ function Menu() {
 
           {/* Wine Note */}
           <motion.div
-            className="text-center mt-12"
+            className="text-center mt-12 px-4 sm:px-0"
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.8 }}
           >
-            <div className="inline-block border border-white/20 rounded px-8 py-4">
-              <p className="text-gray-400 text-sm font-light flex items-center justify-center gap-2">
-                <Wine className="w-4 h-4" />
-                {t("menu.wineNote")}
+            <div className="inline-block border border-white/20 rounded px-6 sm:px-8 py-4 mx-auto">
+              <p className="text-gray-400 text-xs sm:text-sm font-light flex items-center justify-center gap-2">
+                <Wine className="w-4 h-4 flex-shrink-0" />
+                <span className="text-center">{t("menu.wineNote")}</span>
               </p>
             </div>
           </motion.div>

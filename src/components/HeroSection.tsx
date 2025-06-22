@@ -25,28 +25,28 @@ function HeroSection() {
           }}
         >
           {/* First set of images */}
-          <div className="w-80 h-full flex-shrink-0 border border-white">
+          <div className="w-60 sm:w-80 h-full flex-shrink-0 border border-white">
             <img
               src="/dishes/JHK09587.jpg"
               alt=""
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="w-72 h-full flex-shrink-0 border border-white">
+          <div className="w-52 sm:w-72 h-full flex-shrink-0 border border-white">
             <img
               src="/drinks/JHK09516-Enhanced-NR.jpg"
               alt=""
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="w-96 h-full flex-shrink-0 border border-white">
+          <div className="w-72 sm:w-96 h-full flex-shrink-0 border border-white">
             <img
               src="/dishes/JHK09553.jpg"
               alt=""
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="w-64 h-full flex-shrink-0 border border-white">
+          <div className="w-48 sm:w-64 h-full flex-shrink-0 border border-white">
             <img
               src="/bar/JHK09542.jpg"
               alt=""
@@ -400,11 +400,11 @@ function HeroSection() {
         </motion.div>
 
         {/* Dark Overlay for Text Readability */}
-        <div className="absolute inset-0 bg-black/50 backdrop-blur-[0.5px]"></div>
+        <div className="absolute inset-0 bg-black/60 sm:bg-black/50 backdrop-blur-[0.5px]"></div>
       </div>
 
       {/* Main Content - Centered Hero Typography */}
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen text-center px-6">
+      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen text-center px-4 sm:px-6 py-20 sm:py-0">
         {/* Unified Diffused Background for All Hero Text */}
         <div
           className="absolute inset-0 pointer-events-none"
@@ -417,7 +417,7 @@ function HeroSection() {
         />
 
         <motion.h1
-          className="text-3xl md:text-4xl lg:text-5xl font-light mb-2 leading-tight tracking-[0.2em] text-white relative z-10"
+          className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light mb-2 leading-tight tracking-[0.15em] sm:tracking-[0.2em] text-white relative z-10"
           style={{
             fontFamily: "'Playfair Display', serif",
             textShadow: "0 2px 20px rgba(0,0,0,0.8)",
@@ -430,7 +430,7 @@ function HeroSection() {
         </motion.h1>
 
         <motion.h2
-          className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight tracking-[0.1em] text-white relative z-10"
+          className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold mb-6 sm:mb-8 leading-tight tracking-[0.05em] sm:tracking-[0.1em] text-white relative z-10"
           style={{
             fontFamily: "'Playfair Display', serif",
             textShadow: "0 2px 25px rgba(0,0,0,0.8)",
@@ -443,7 +443,7 @@ function HeroSection() {
         </motion.h2>
 
         <motion.p
-          className="text-base md:text-lg text-gray-200 mb-12 max-w-xl leading-relaxed font-light relative z-10"
+          className="text-sm sm:text-base md:text-lg text-gray-200 mb-8 sm:mb-12 max-w-sm sm:max-w-xl leading-relaxed font-light relative z-10 px-4 sm:px-0"
           style={{
             textShadow: "0 1px 15px rgba(0,0,0,0.7)",
           }}
@@ -455,13 +455,13 @@ function HeroSection() {
         </motion.p>
 
         <motion.div
-          className="flex flex-col sm:flex-row gap-6 justify-center items-center relative z-10"
+          className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center relative z-10 w-full px-6 sm:px-0"
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.9 }}
         >
           <motion.button
-            className="bg-red-600 hover:bg-red-700 text-white px-10 py-4 text-sm font-medium tracking-[0.1em] transition-all duration-300 rounded-none"
+            className="bg-red-600 hover:bg-red-700 text-white px-8 sm:px-10 py-3 sm:py-4 text-sm font-medium tracking-[0.1em] transition-all duration-300 rounded-none w-full sm:w-auto"
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
           >
@@ -469,7 +469,7 @@ function HeroSection() {
           </motion.button>
 
           <motion.button
-            className="border border-white text-white px-10 py-4 text-sm font-medium tracking-[0.1em] hover:bg-white hover:text-black transition-all duration-300 rounded-none"
+            className="border border-white text-white px-8 sm:px-10 py-3 sm:py-4 text-sm font-medium tracking-[0.1em] hover:bg-white hover:text-black transition-all duration-300 rounded-none w-full sm:w-auto"
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
           >
@@ -480,7 +480,7 @@ function HeroSection() {
 
       {/* Operating Hours & Location - Minimal Bottom Info */}
       <motion.div
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 flex flex-col sm:flex-row gap-8 text-center"
+        className="absolute bottom-4 sm:bottom-8 left-1/2 transform -translate-x-1/2 z-20 flex flex-col sm:flex-row gap-4 sm:gap-8 text-center px-4"
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, delay: 1.1 }}
@@ -490,7 +490,7 @@ function HeroSection() {
           <p className="text-xs font-light tracking-wide mb-1 text-gray-300">
             {t("hero.hours.weekdays")}
           </p>
-          <p className="text-sm font-medium tracking-[0.1em]">
+          <p className="text-xs sm:text-sm font-medium tracking-[0.05em] sm:tracking-[0.1em]">
             {t("hero.hours.weekdaysTime")}
           </p>
         </div>
@@ -500,7 +500,7 @@ function HeroSection() {
           <p className="text-xs font-light tracking-wide mb-1 text-gray-300">
             {t("hero.hours.weekends")}
           </p>
-          <p className="text-sm font-medium tracking-[0.1em]">
+          <p className="text-xs sm:text-sm font-medium tracking-[0.05em] sm:tracking-[0.1em]">
             {t("hero.hours.weekendsTime")}
           </p>
         </div>
@@ -510,7 +510,7 @@ function HeroSection() {
           <p className="text-xs font-light tracking-wide mb-1 text-gray-300">
             {t("hero.location.address")}
           </p>
-          <p className="text-sm font-medium tracking-[0.1em]">
+          <p className="text-xs sm:text-sm font-medium tracking-[0.05em] sm:tracking-[0.1em]">
             {t("hero.location.region")}
           </p>
         </div>

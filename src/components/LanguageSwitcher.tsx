@@ -42,6 +42,14 @@ function LanguageSwitcher() {
     navigate(newPath);
   };
 
+  const toggleLanguage = () => {
+    const newLang = currentLang === "cs" ? "en" : "cs";
+    switchLanguage(newLang);
+  };
+
+  const currentLanguage = languages.find((lang) => lang.code === currentLang);
+  const nextLanguage = languages.find((lang) => lang.code !== currentLang);
+
   return (
     <motion.div
       className="relative"
@@ -49,7 +57,8 @@ function LanguageSwitcher() {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.3 }}
     >
-      <div className="flex items-center bg-black/50 backdrop-blur-sm border border-white/20">
+      {/* Desktop Version - Full Switcher */}
+      <div className="hidden sm:flex items-center bg-black/50 backdrop-blur-sm border border-white/20">
         {languages.map((lang, index) => (
           <motion.button
             key={lang.code}
@@ -105,6 +114,26 @@ function LanguageSwitcher() {
           </motion.button>
         ))}
       </div>
+
+      {/* Mobile Version - Single Toggle Button */}
+      <motion.button
+        onClick={toggleLanguage}
+        className="sm:hidden relative px-3 py-2 font-bold text-xs uppercase tracking-[0.1em] transition-all duration-300 flex items-center gap-2 bg-black/50 backdrop-blur-sm border border-white/20 text-white hover:bg-white/10"
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
+        initial={{ opacity: 0, x: -10 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.3 }}
+      >
+        <motion.div
+          animate={{ rotate: 180 }}
+          transition={{ duration: 0.3 }}
+          key={currentLang}
+        >
+          <Square className="w-3 h-3 fill-current" />
+        </motion.div>
+        <span>{currentLanguage?.label}</span>
+      </motion.button>
     </motion.div>
   );
 }

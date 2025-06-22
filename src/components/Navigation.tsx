@@ -110,8 +110,21 @@ function Navigation() {
               ))}
             </div>
 
-            {/* Right Side - Language Switcher & Mobile Menu */}
+            {/* Right Side - Book Table, Language Switcher & Mobile Menu */}
             <div className="flex items-center space-x-4">
+              {/* Book Table Button - Desktop Only */}
+              <motion.a
+                href="tel:+420732878238"
+                className="hidden md:block px-4 py-2 bg-red-700 text-white font-bold text-xs uppercase tracking-[0.1em] hover:bg-red-800 transition-colors duration-200"
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                initial={{ opacity: 0, x: 10 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.3, delay: 0.2 }}
+              >
+                {t("hero.bookTable")}
+              </motion.a>
+
               <LanguageSwitcher />
 
               {/* Mobile Menu Button */}

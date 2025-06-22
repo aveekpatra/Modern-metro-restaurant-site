@@ -48,7 +48,6 @@ function LanguageSwitcher() {
   };
 
   const currentLanguage = languages.find((lang) => lang.code === currentLang);
-  const nextLanguage = languages.find((lang) => lang.code !== currentLang);
 
   return (
     <motion.div

@@ -7,8 +7,8 @@ function GoogleMap() {
 
   // Restaurant coordinates: Vlašim Castle
   const restaurantLocation = {
-    lat: 49.7011,
-    lng: 14.8978,
+    lat: 49.7072979,
+    lng: 14.8950185,
     address: "Zámek 1, 258 01 Vlašim",
   };
 

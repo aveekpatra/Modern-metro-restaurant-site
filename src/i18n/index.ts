@@ -22,7 +22,7 @@ i18n
     resources,
     fallbackLng: "cs", // Czech as default
     lng: "cs", // Default language
-    debug: process.env.NODE_ENV === "development",
+    debug: import.meta.env.DEV,
 
     interpolation: {
       escapeValue: false, // React already escapes values

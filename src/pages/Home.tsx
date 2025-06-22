@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import HeroSection from "../components/HeroSection";
 import FeaturedDishes from "../components/FeaturedDishes";
 import AboutSection from "../components/AboutSection";
@@ -7,8 +9,17 @@ import Reviews from "../components/Reviews";
 import ContactSection from "../components/ContactSection";
 
 function Home() {
+  const { t } = useTranslation();
+
+  useEffect(() => {
+    document.title = t("home.title");
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute("content", t("home.metaDescription"));
+    }
+  }, [t]);
   return (
-    <div className="bg-black text-white overflow-hidden font-mono">
+    <div className="bg-black text-white overflow-hidden">
       {/* Hero Section */}
       <HeroSection />
 

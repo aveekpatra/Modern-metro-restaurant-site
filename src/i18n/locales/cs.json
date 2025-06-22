@@ -2,7 +2,7 @@
   "nav": {
     "home": "Domů",
     "menu": "Jídelní lístek",
-    "about": "O nás",
+    "gallery": "Galerie",
     "contact": "Kontakt",
     "restaurantName": "U Blanických rytířů"
   },
@@ -21,7 +21,7 @@
       "weekdays": "Pondělí - Čtvrtek a Neděle",
       "weekdaysTime": "11:00 - 22:00",
       "weekends": "Pátek - Sobota",
-      "weekendsTime": "11:00 - 24:00"
+      "weekendsTime": "11:00 - 0:00"
     },
     "location": {
       "address": "Zámek 1, Vlašim",
@@ -40,7 +40,9 @@
       "salon": "K dispozici salonek",
       "friendlyAtmosphere": "Přátelská atmosféra a profesionální obsluha",
       "culinaryExperience": "Přijďte zažít kulinářský zážitek",
-      "goodWine": "Či jen posedět nad sklenkou dobrého vína z našich vinic"
+      "goodWine": "Či jen posedět nad sklenkou dobrého vína z našich vinic",
+      "castleBasement": "Prostředí ve sklepení zámku",
+      "corporateEvents": "Možnost pořádání firemních a soukromých oslav"
     },
     "reservation": {
       "phone": "+420 732 878 238",
@@ -94,7 +96,15 @@
   "gallery": {
     "title": "OBJEVTE JÍDLO A ATMOSFÉRU",
     "subtitle": "GALERIE",
-    "viewFullGallery": "ZOBRAZIT CELOU GALERII"
+    "viewFullGallery": "ZOBRAZIT CELOU GALERII",
+    "categories": {
+      "all": "Všechny fotky",
+      "dishes": "Pokrmy",
+      "drinks": "Nápoje",
+      "bar": "Bar",
+      "interior": "Interiér",
+      "menu": "Menu"
+    }
   },
   "reviews": {
     "title": "NAŠI HOSTÉ NÁS MILUJÍ",
@@ -103,23 +113,23 @@
     "readMore": "ČÍST VÍCE RECENZÍ",
     "testimonials": [
       {
-        "text": "Úžasný zážitek! Svíčková byla dokonalá, knedlíky nadýchané a omáčka krémová. Prostředí zámku dodává jídlu zvláštní atmosféru. Obsluha byla velmi pozorná a profesionální.",
-        "author": "Petr Novák",
+        "text": "Prostředí velmi pěkné, profesionální obsluha. Jídlo dobré, nabídka z denního menu je za rozumnou cenu. Dá se platit kartou.",
+        "author": "Stanislav Staněk",
         "rating": 5
       },
       {
-        "text": "Navštívili jsme restauraci během víkendu a byli jsme nadšeni. Guláš byl výborný, maso měkké a chuť autentická. Krásné prostředí a milá obsluha. Určitě se vrátíme!",
-        "author": "Marie Svobodová",
+        "text": "Nejlepší podnik ve Vlašimi, jídlo vynikající. Prostředí ve sklepení zámku je už jen třešnička na dortu.",
+        "author": "Jan Hlaváček",
         "rating": 5
       },
       {
-        "text": "Skvělá česká kuchyně v nádherném prostředí zámku. Pečená kachna byla fantastická, červené zelí perfektně dochucené. Víno z vlastních vinic je výtečné. Doporučuji všem!",
-        "author": "Jan Dvořák",
+        "text": "Byli jsme zde poprvé, a všichni jsme spokojeni. Jídlo výborné, pivko též a obsluha příjemná, tak jak má být. Rádi se opět vrátíme. Moc děkujeme.",
+        "author": "Jaromír Blatník",
         "rating": 5
       },
       {
-        "text": "Restaurace splnila všechna očekávání. Řízek byl křupavý, bramborový salát domácí chutě. Prostředí je elegantní a útulné zároveň. Personál velmi vstřícný a rychlý.",
-        "author": "Anna Procházková",
+        "text": "Výborné jídlo, milá obsluha. Doporučuji kuřecí steak na lískové omáčce s bramborovými plackami a svíčkovou na smetaně.",
+        "author": "Petra Merhuliková",
         "rating": 5
       }
     ]
@@ -127,7 +137,89 @@
   "menu": {
     "title": "Naše menu",
     "subtitle": "Objevte tradiční českou kuchyni s moderními prvky, připravenou naším profesionálním týmem kuchařů.",
-    "metaDescription": "Prozkoumejte menu restaurace U Blanických rytířů s tradičními českými pokrmy"
+    "metaDescription": "Prozkoumejte menu restaurace U Blanických rytířů s tradičními českými pokrmy",
+    "searchPlaceholder": "Hledat pokrmy...",
+    "featured": "Doporučujeme",
+    "noResults": "Nebyly nalezeny žádné pokrmy odpovídající vašemu hledání.",
+    "wineNote": "Zeptejte se našeho someliéra na vína z vlastních vinic, která dokonale doplní váš pokrm",
+    "categories": {
+      "all": "Všechny pokrmy",
+      "appetizers": "Předkrmy",
+      "soups": "Polévky",
+      "mains": "Hlavní chody",
+      "desserts": "Dezerty",
+      "drinks": "Nápoje"
+    },
+    "items": {
+      "chlebicky": {
+        "name": "České chlebíčky",
+        "description": "Tradiční český předkrm s různými náplněmi na čerstvém chlebu - šunka, salám, sýr a zelenina"
+      },
+      "smazenySyr": {
+        "name": "Smažený sýr",
+        "description": "Zlatavě osmažený český sýr podávaný s tatarskou omáčkou a čerstvou zeleninou"
+      },
+      "uzeneMaso": {
+        "name": "Mísa uzeného masa",
+        "description": "Výběr tradičního českého uzeného masa s nakládanou zeleninou a hořčicí"
+      },
+      "gulasPolevka": {
+        "name": "Gulášová polévka",
+        "description": "Vydatná hovězí polévka s paprikou, cibulí a tradičními českými kořením"
+      },
+      "bramborovaPolevka": {
+        "name": "Bramborová polévka",
+        "description": "Krémová bramborová polévka s houbami, majoránkou a křupavou slaninou"
+      },
+      "cesnecka": {
+        "name": "Česnečka",
+        "description": "Tradiční česká česnečka se sýrem, chlebovými krutony a bylinkami"
+      },
+      "svickova": {
+        "name": "Svíčková na smetaně",
+        "description": "Hovězí svíčková na smetaně s houskovými knedlíky, brusinkami a šlehačkou"
+      },
+      "hoveziGulas": {
+        "name": "Hovězí guláš",
+        "description": "Tradiční český hovězí guláš s cibulí, paprikou a houskovými knedlíky"
+      },
+      "pecenaKachna": {
+        "name": "Pečená kachna",
+        "description": "Pomalu pečená kachna s červeným zelím, kysaným zelím a bramborovými knedlíky"
+      },
+      "rizek": {
+        "name": "Český řízek",
+        "description": "Obalovaný vepřový řízek podávaný s bramborovým salátem a citronem"
+      },
+      "peceneVeprove": {
+        "name": "Pečené vepřové",
+        "description": "Tradiční pečené vepřové s kysaným zelím a houskovými knedlíky"
+      },
+      "palacinky": {
+        "name": "České palačinky",
+        "description": "Tenké palačinky plněné džemem, čokoládou nebo čerstvým ovocem se šlehačkou"
+      },
+      "ovocneKnedliky": {
+        "name": "Ovocné knedlíky",
+        "description": "Sladké bramborové knedlíky plněné švestkami nebo meruňkami, posypané máslem a mákem"
+      },
+      "strudl": {
+        "name": "Jablečný štrudl",
+        "description": "Tradiční český jablečný štrudl se skořicí, rozinkami a vanilkovou omáčkou"
+      },
+      "pilsnerUrquell": {
+        "name": "Pilsner Urquell",
+        "description": "Originální české ležák pivo, svěží a osvěžující s charakteristickou chmelovou chutí"
+      },
+      "moravskeVino": {
+        "name": "Moravské víno",
+        "description": "Kvalitní víno z našich vlastních vinic v moravském regionu"
+      },
+      "becherovka": {
+        "name": "Becherovka",
+        "description": "Tradiční český bylinný likér s unikátní směsí bylin a koření"
+      }
+    }
   },
   "contact": {
     "title": "KONTAKTUJTE NÁS",
@@ -187,6 +279,14 @@
       {
         "icon": "users",
         "text": "Profesionální obsluha"
+      },
+      {
+        "icon": "wifi",
+        "text": "Wi-Fi zdarma"
+      },
+      {
+        "icon": "creditCard",
+        "text": "Platba kartou"
       }
     ],
     "reservation": {

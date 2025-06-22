@@ -2,7 +2,7 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "about": "About",
+    "gallery": "Gallery",
     "contact": "Contact",
     "restaurantName": "U Blanických rytířů"
   },
@@ -40,7 +40,9 @@
       "salon": "Private salon available",
       "friendlyAtmosphere": "Friendly atmosphere and professional service",
       "culinaryExperience": "Come enjoy a culinary experience",
-      "goodWine": "Or just sit over a glass of good wine from our vineyards"
+      "goodWine": "Or just sit over a glass of good wine from our vineyards",
+      "castleBasement": "Atmospheric castle basement setting",
+      "corporateEvents": "Corporate and private celebrations available"
     },
     "reservation": {
       "phone": "+420 732 878 238",
@@ -94,7 +96,15 @@
   "gallery": {
     "title": "EXPLORE THE FOOD & AMBIENCE",
     "subtitle": "GALLERY",
-    "viewFullGallery": "VIEW FULL GALLERY"
+    "viewFullGallery": "VIEW FULL GALLERY",
+    "categories": {
+      "all": "All Photos",
+      "dishes": "Dishes",
+      "drinks": "Drinks",
+      "bar": "Bar",
+      "interior": "Interior",
+      "menu": "Menu"
+    }
   },
   "reviews": {
     "title": "OUR GUESTS LOVE US",
@@ -103,23 +113,23 @@
     "readMore": "READ MORE REVIEWS",
     "testimonials": [
       {
-        "text": "Amazing experience! The svíčková was perfect, dumplings were fluffy and the sauce creamy. The castle setting adds a special atmosphere to the meal. Service was very attentive and professional.",
-        "author": "Peter Novák",
+        "text": "Very nice atmosphere, professional service. Good food, the daily menu offers reasonable prices. Card payments accepted.",
+        "author": "Stanislav Staněk",
         "rating": 5
       },
       {
-        "text": "We visited the restaurant during the weekend and were delighted. The goulash was excellent, meat tender and taste authentic. Beautiful setting and lovely service. We'll definitely return!",
-        "author": "Marie Svobodová",
+        "text": "Best restaurant in Vlašim, excellent food. The castle basement setting is just the cherry on top.",
+        "author": "Jan Hlaváček",
         "rating": 5
       },
       {
-        "text": "Great Czech cuisine in a beautiful castle setting. The roasted duck was fantastic, red cabbage perfectly seasoned. Wine from their own vineyards is excellent. Highly recommend to everyone!",
-        "author": "Jan Dvořák",
+        "text": "We were here for the first time, and we were all satisfied. Excellent food, great beer too, and pleasant service as it should be. We'll gladly return. Thank you very much.",
+        "author": "Jaromír Blatník",
         "rating": 5
       },
       {
-        "text": "The restaurant exceeded all expectations. Schnitzel was crispy, potato salad had that homemade taste. The atmosphere is elegant yet cozy. Staff very friendly and efficient.",
-        "author": "Anna Procházková",
+        "text": "Excellent food, lovely service. I recommend the chicken steak with hazelnut sauce and potato pancakes, and the svíčková na smetaně.",
+        "author": "Petra Merhuliková",
         "rating": 5
       }
     ]
@@ -127,7 +137,89 @@
   "menu": {
     "title": "Our Menu",
     "subtitle": "Discover our traditional Czech cuisine with modern touches, prepared by our professional team of chefs.",
-    "metaDescription": "Explore U Blanických rytířů menu featuring traditional Czech dishes"
+    "metaDescription": "Explore U Blanických rytířů menu featuring traditional Czech dishes",
+    "searchPlaceholder": "Search dishes...",
+    "featured": "Featured",
+    "noResults": "No dishes found matching your search.",
+    "wineNote": "Ask our sommelier about wines from our own vineyards that pair perfectly with your meal",
+    "categories": {
+      "all": "All Dishes",
+      "appetizers": "Appetizers",
+      "soups": "Soups",
+      "mains": "Main Courses",
+      "desserts": "Desserts",
+      "drinks": "Drinks"
+    },
+    "items": {
+      "chlebicky": {
+        "name": "Czech Open Sandwiches",
+        "description": "Traditional Czech appetizer with various toppings on fresh bread - ham, salami, cheese, and vegetables"
+      },
+      "smazenySyr": {
+        "name": "Fried Cheese",
+        "description": "Golden-fried Czech cheese served with tartar sauce and fresh vegetables"
+      },
+      "uzeneMaso": {
+        "name": "Smoked Meat Platter",
+        "description": "Selection of traditional Czech smoked meats with pickles and mustard"
+      },
+      "gulasPolevka": {
+        "name": "Goulash Soup",
+        "description": "Hearty beef soup with paprika, onions, and traditional Czech spices"
+      },
+      "bramborovaPolevka": {
+        "name": "Potato Soup",
+        "description": "Creamy potato soup with mushrooms, marjoram, and crispy bacon"
+      },
+      "cesnecka": {
+        "name": "Garlic Soup",
+        "description": "Traditional Czech garlic soup with cheese, bread croutons, and herbs"
+      },
+      "svickova": {
+        "name": "Svíčková na smetaně",
+        "description": "Beef sirloin in creamy sauce with bread dumplings, cranberries, and whipped cream"
+      },
+      "hoveziGulas": {
+        "name": "Beef Goulash",
+        "description": "Traditional Czech beef goulash with onions, paprika, and bread dumplings"
+      },
+      "pecenaKachna": {
+        "name": "Roasted Duck",
+        "description": "Slow-roasted duck with red cabbage, sauerkraut, and potato dumplings"
+      },
+      "rizek": {
+        "name": "Czech Schnitzel",
+        "description": "Breaded pork cutlet served with potato salad and lemon"
+      },
+      "peceneVeprove": {
+        "name": "Roasted Pork",
+        "description": "Traditional roasted pork with sauerkraut and bread dumplings"
+      },
+      "palacinky": {
+        "name": "Czech Pancakes",
+        "description": "Thin pancakes filled with jam, chocolate, or fresh fruit and whipped cream"
+      },
+      "ovocneKnedliky": {
+        "name": "Fruit Dumplings",
+        "description": "Sweet potato dumplings filled with plums or apricots, topped with butter and poppy seeds"
+      },
+      "strudl": {
+        "name": "Apple Strudel",
+        "description": "Traditional Czech apple strudel with cinnamon, raisins, and vanilla sauce"
+      },
+      "pilsnerUrquell": {
+        "name": "Pilsner Urquell",
+        "description": "Original Czech lager beer, crisp and refreshing with a distinctive hoppy flavor"
+      },
+      "moravskeVino": {
+        "name": "Moravian Wine",
+        "description": "Fine wine from our own vineyards in the Moravian region"
+      },
+      "becherovka": {
+        "name": "Becherovka",
+        "description": "Traditional Czech herbal liqueur with a unique blend of herbs and spices"
+      }
+    }
   },
   "contact": {
     "title": "CONTACT US",
@@ -187,6 +279,14 @@
       {
         "icon": "users",
         "text": "Professional service"
+      },
+      {
+        "icon": "wifi",
+        "text": "Free Wi-Fi"
+      },
+      {
+        "icon": "creditCard",
+        "text": "Card payments accepted"
       }
     ],
     "reservation": {

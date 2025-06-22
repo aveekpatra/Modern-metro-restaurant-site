@@ -55,7 +55,7 @@ function LanguageSwitcher() {
             key={lang.code}
             onClick={() => switchLanguage(lang.code)}
             className={`
-              relative px-4 py-2 font-mono font-bold text-xs uppercase tracking-[0.1em] transition-all duration-300 flex items-center gap-2
+              relative px-4 py-2 font-bold text-xs uppercase tracking-[0.1em] transition-all duration-300 flex items-center gap-2
               ${
                 currentLang === lang.code
                   ? "bg-red-700 text-white"

@@ -19,8 +19,8 @@ function Navigation() {
       href: basePath === "/en" ? "/en" : "/",
       label: t("nav.home"),
     },
-    { key: "about", href: `${basePath}/about`, label: t("nav.about") },
     { key: "menu", href: `${basePath}/menu`, label: t("nav.menu") },
+    { key: "gallery", href: `${basePath}/gallery`, label: t("nav.gallery") },
     { key: "contact", href: `${basePath}/contact`, label: t("nav.contact") },
   ];
 
@@ -44,19 +44,30 @@ function Navigation() {
     >
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-20">
-          {/* Logo - Simple Metro */}
+          {/* Logo - Knight Logo with Restaurant Name */}
           <motion.div
             className="flex items-center"
-            whileHover={{ scale: 1.01 }}
+            whileHover={{ scale: 1.02 }}
+            transition={{ duration: 0.2 }}
           >
             <Link
               to={basePath === "/en" ? "/en" : "/"}
               className="flex items-center space-x-3 group"
             >
-              <div className="w-2 h-2 bg-red-700 rounded-full"></div>
+              <motion.div
+                className="w-10 h-10 flex-shrink-0"
+                whileHover={{ rotate: 5 }}
+                transition={{ duration: 0.3 }}
+              >
+                <img
+                  src="/logo/logo-primary.png"
+                  alt="U Blanických rytířů"
+                  className="w-full h-full object-contain filter brightness-0 invert"
+                />
+              </motion.div>
               <div className="font-sans">
                 <div className="text-lg font-bold text-white uppercase tracking-wide leading-none">
-                  ADEL RESTAURANT
+                  {t("nav.restaurantName")}
                 </div>
               </div>
             </Link>
@@ -180,20 +191,22 @@ function Navigation() {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.4, delay: 0.3 }}
               >
-                <motion.button
-                  className="w-full bg-red-700 text-white py-3 px-6 font-sans font-medium text-sm uppercase tracking-wide transition-all duration-300 hover:bg-red-800"
+                <motion.a
+                  href="tel:+420732878238"
+                  className="w-full bg-red-700 text-white py-3 px-6 font-sans font-medium text-sm uppercase tracking-wide transition-all duration-300 hover:bg-red-800 block text-center"
                   whileHover={{ scale: 1.01 }}
                   whileTap={{ scale: 0.99 }}
                 >
-                  BOOK TABLE
-                </motion.button>
-                <motion.button
-                  className="w-full border border-white/20 text-white py-3 px-6 font-sans font-medium text-sm uppercase tracking-wide transition-all duration-300 hover:bg-white/10"
+                  {t("hero.bookTable")}
+                </motion.a>
+                <motion.a
+                  href="mailto:ublanickychrytiru@seznam.cz"
+                  className="w-full border border-white/20 text-white py-3 px-6 font-sans font-medium text-sm uppercase tracking-wide transition-all duration-300 hover:bg-white/10 block text-center"
                   whileHover={{ scale: 1.01 }}
                   whileTap={{ scale: 0.99 }}
                 >
-                  CONTACT
-                </motion.button>
+                  {t("contact.email.title")}
+                </motion.a>
               </motion.div>
             </div>
           </motion.div>

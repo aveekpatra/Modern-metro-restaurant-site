@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import LanguageRouter from "./components/LanguageRouter";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
-import About from "./pages/About";
+import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 
 function App() {
@@ -20,14 +20,14 @@ function App() {
               {/* Czech routes (default) */}
               <Route path="/" element={<Home />} />
               <Route path="/menu" element={<Menu />} />
-              <Route path="/about" element={<About />} />
+              <Route path="/gallery" element={<Gallery />} />
               <Route path="/contact" element={<Contact />} />
 
               {/* English routes */}
               <Route path="/en" element={<Home />} />
               <Route path="/en/" element={<Home />} />
               <Route path="/en/menu" element={<Menu />} />
-              <Route path="/en/about" element={<About />} />
+              <Route path="/en/gallery" element={<Gallery />} />
               <Route path="/en/contact" element={<Contact />} />
 
               {/* 404 Not Found */}

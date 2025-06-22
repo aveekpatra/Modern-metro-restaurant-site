@@ -1,6 +1,15 @@
 import { motion } from "motion/react";
 import { useTranslation } from "react-i18next";
-import { MapPin, Phone, Mail, Clock, Wine, Users } from "lucide-react";
+import {
+  MapPin,
+  Phone,
+  Mail,
+  Clock,
+  Wine,
+  Users,
+  Wifi,
+  CreditCard,
+} from "lucide-react";
 
 function ContactSection() {
   const { t } = useTranslation();
@@ -192,6 +201,12 @@ function ContactSection() {
                       )}
                       {feature.icon === "clock" && (
                         <Clock className="w-4 h-4 text-white" />
+                      )}
+                      {feature.icon === "wifi" && (
+                        <Wifi className="w-4 h-4 text-white" />
+                      )}
+                      {feature.icon === "creditCard" && (
+                        <CreditCard className="w-4 h-4 text-white" />
                       )}
                     </div>
                     <span className="text-gray-300 text-sm">
